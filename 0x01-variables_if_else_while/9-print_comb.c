@@ -15,8 +15,7 @@ int main(void)
 		single_digit++;
 
 		if (single_digit == 9)
-
-			continue;
+			break;
 		putchar(',');
 		putchar(' ');
 	}
