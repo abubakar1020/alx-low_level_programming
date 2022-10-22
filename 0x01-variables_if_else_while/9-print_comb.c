@@ -15,9 +15,10 @@ int main(void)
 		single_digit++;
 
 		if (single_digit == 9)
-			break;
+		{
 		putchar(',');
 		putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
