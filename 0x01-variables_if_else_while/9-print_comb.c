@@ -12,9 +12,9 @@ int main(void)
 	while (single_digit < 10)
 	{
 		putchar((single_digit % 10) + '0');
-		putchar(',');
 		putchar(' ');
 		single_digit++;
+		putchar(',');
 
 		if (single_digit == 9)
 			continue;
