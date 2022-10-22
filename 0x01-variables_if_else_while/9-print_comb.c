@@ -13,11 +13,11 @@ int main(void)
 	{
 		putchar((single_digit % 10) + '0');
 		single_digit++;
-		putchar(',');
+
 		if (single_digit == 9)
 
 			continue;
-		
+		putchar(',');
 		putchar(' ');
 	}
 	putchar('\n');
