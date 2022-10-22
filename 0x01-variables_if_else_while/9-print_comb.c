@@ -14,10 +14,12 @@ int main(void)
 		putchar((single_digit % 10) + '0');
 
 		if (single_digit == 9)
+		{
 			continue;
+		}
+			single_digit++;
 		putchar(',');
 		putchar(' ');
-		single_digit++;
 	}
 	putchar('\n');
 	return (0);
