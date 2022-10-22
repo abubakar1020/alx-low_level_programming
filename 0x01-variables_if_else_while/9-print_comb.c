@@ -7,18 +7,15 @@
  */
 int main(void)
 {
-	int single_digit = 0;
+	int single_digit;
 
-	while (single_digit <= 9)
+	for (single_digit = 0; single_digit < 10; single_digit++)
 	{
 		putchar((single_digit % 10) + '0');
-		putchar(',');
-		putchar(' ');
-		single_digit++;
-		
-
 		if (single_digit == 9)
 			continue;
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
