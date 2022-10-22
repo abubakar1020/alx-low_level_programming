@@ -9,7 +9,15 @@ int main(void)
 {
 	char hex_num;
 
-	hex_num = 0;
+	int num = 0;
+
+	hex_num = 'a';
+
+	while (num < 10)
+	{
+		putchar((num % 10) + '0');
+		num++;
+	}
 
 	while (hex_num <= 'f')
 	{
