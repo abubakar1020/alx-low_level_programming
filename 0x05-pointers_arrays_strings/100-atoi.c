@@ -22,11 +22,11 @@ int _atoi(char *s)
 	while (p < length && f == 0)
 	{
 		if (s[p] == '-')
-			++d;
+			++m;
 		if (s[p] >= '0' && s[p] <= '9')
 		{
 			number = s[p] - '0';
-			if (d % 2)
+			if (m % 2)
 				number = -number;
 			n = n * 10 + number;
 			f = 1;
