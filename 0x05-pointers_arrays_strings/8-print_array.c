@@ -10,9 +10,9 @@
  */
 void print_array(int *a, int n)
 {
-	int k;
+	int k = 0;
 
-	for (k = 0; k < n; k++)
+	for (; k < n; k++)
 	{
 	printf("%d, ", *(a + k));
 	if (k != (n - 1))
