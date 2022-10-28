@@ -12,12 +12,12 @@ void print_alphabet_x10(void)
 
 	while (count <= 9)
 	{
-		count++;
 		while (alphabet <= 'z')
 		{
 			_putchar(alphabet);
 			alphabet++;
 		}
+		count++;
 	}
 	_putchar('\n');
 }
