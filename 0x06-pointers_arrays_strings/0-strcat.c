@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-i
+
 /**
  *_strcat - concatenating two strings
  * @dest: copy to
